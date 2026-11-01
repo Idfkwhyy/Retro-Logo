@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3B8D642F14151900CFC405 /* MenuBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3B8D632F14151900CFC405 /* MenuBarController.swift */; };
+		6A6223842F13D33D00D273B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6223832F13D33D00D273B4 /* AppDelegate.swift */; };
+		6A6223862F13D35600D273B4 /* OverlaySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6223852F13D35600D273B4 /* OverlaySettings.swift */; };
+		6A6223882F13D36400D273B4 /* OverlayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6223872F13D36400D273B4 /* OverlayImageView.swift */; };
+		6A6223912F13DCEE00D273B4 /* PopoverContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6223902F13DCEE00D273B4 /* PopoverContentView.swift */; };
+		6A931A972F1304DF00686573 /* Retro_LogoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A931A962F1304DF00686573 /* Retro_LogoApp.swift */; };
+		6A931A992F1304DF00686573 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A931A982F1304DF00686573 /* ContentView.swift */; };
+		6A931A9B2F1304E000686573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A931A9A2F1304E000686573 /* Assets.xcassets */; };
+		6A931A9E2F1304E000686573 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A931A9D2F1304E000686573 /* Preview Assets.xcassets */; };
+		6AED7F8D2F197E0D0099FBEA /* BigSurSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AED7F8C2F197E0D0099FBEA /* BigSurSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A3B8D632F14151900CFC405 /* MenuBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarController.swift; sourceTree = "<group>"; };
+		6A6223832F13D33D00D273B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A6223852F13D35600D273B4 /* OverlaySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaySettings.swift; sourceTree = "<group>"; };
+		6A6223872F13D36400D273B4 /* OverlayImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayImageView.swift; sourceTree = "<group>"; };
+		6A62238F2F13DAF000D273B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6A6223902F13DCEE00D273B4 /* PopoverContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverContentView.swift; sourceTree = "<group>"; };
+		6A931A932F1304DF00686573 /* Retro Logo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retro Logo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A931A962F1304DF00686573 /* Retro_LogoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_LogoApp.swift; sourceTree = "<group>"; };
+		6A931A982F1304DF00686573 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A931A9A2F1304E000686573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A931A9D2F1304E000686573 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A931A9F2F1304E000686573 /* RetroLogo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetroLogo.entitlements; sourceTree = "<group>"; };
+		6AED7F8C2F197E0D0099FBEA /* BigSurSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigSurSlider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A931A902F1304DF00686573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A931A8A2F1304DF00686573 = {
+			isa = PBXGroup;
+			children = (
+				6A931A952F1304DF00686573 /* RetroLogo */,
+				6A931A942F1304DF00686573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A931A942F1304DF00686573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A931A932F1304DF00686573 /* Retro Logo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A931A952F1304DF00686573 /* RetroLogo */ = {
+			isa = PBXGroup;
+			children = (
+				6A62238F2F13DAF000D273B4 /* Info.plist */,
+				6AED7F892F197DEA0099FBEA /* App */,
+				6A931A9A2F1304E000686573 /* Assets.xcassets */,
+				6A931A9F2F1304E000686573 /* RetroLogo.entitlements */,
+				6A931A9C2F1304E000686573 /* Preview Content */,
+				6AED7F8A2F197DF20099FBEA /* Overlay */,
+				6AED7F8B2F197DFC0099FBEA /* UI */,
+			);
+			path = RetroLogo;
+			sourceTree = "<group>";
+		};
+		6A931A9C2F1304E000686573 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A931A9D2F1304E000686573 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AED7F892F197DEA0099FBEA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6A931A962F1304DF00686573 /* Retro_LogoApp.swift */,
+				6A931A982F1304DF00686573 /* ContentView.swift */,
+				6A6223832F13D33D00D273B4 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6AED7F8A2F197DF20099FBEA /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				6A6223872F13D36400D273B4 /* OverlayImageView.swift */,
+				6A6223852F13D35600D273B4 /* OverlaySettings.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		6AED7F8B2F197DFC0099FBEA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6A6223902F13DCEE00D273B4 /* PopoverContentView.swift */,
+				6A3B8D632F14151900CFC405 /* MenuBarController.swift */,
+				6AED7F8C2F197E0D0099FBEA /* BigSurSlider.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A931A922F1304DF00686573 /* Retro Logo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A931AA22F1304E000686573 /* Build configuration list for PBXNativeTarget "Retro Logo" */;
+			buildPhases = (
+				6A931A8F2F1304DF00686573 /* Sources */,
+				6A931A902F1304DF00686573 /* Frameworks */,
+				6A931A912F1304DF00686573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retro Logo";
+			productName = RetroLogo;
+			productReference = 6A931A932F1304DF00686573 /* Retro Logo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A931A8B2F1304DF00686573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6A931A922F1304DF00686573 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6A931A8E2F1304DF00686573 /* Build configuration list for PBXProject "Retro Logo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A931A8A2F1304DF00686573;
+			productRefGroup = 6A931A942F1304DF00686573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A931A922F1304DF00686573 /* Retro Logo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A931A912F1304DF00686573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A931A9E2F1304E000686573 /* Preview Assets.xcassets in Resources */,
+				6A931A9B2F1304E000686573 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A931A8F2F1304DF00686573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6223882F13D36400D273B4 /* OverlayImageView.swift in Sources */,
+				6A6223842F13D33D00D273B4 /* AppDelegate.swift in Sources */,
+				6A931A992F1304DF00686573 /* ContentView.swift in Sources */,
+				6A931A972F1304DF00686573 /* Retro_LogoApp.swift in Sources */,
+				6AED7F8D2F197E0D0099FBEA /* BigSurSlider.swift in Sources */,
+				6A6223912F13DCEE00D273B4 /* PopoverContentView.swift in Sources */,
+				6A6223862F13D35600D273B4 /* OverlaySettings.swift in Sources */,
+				6A3B8D642F14151900CFC405 /* MenuBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A931AA02F1304E000686573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A931AA12F1304E000686573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6A931AA32F1304E000686573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RetroLogo/RetroLogo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetroLogo/Preview Content\"";
+				DEVELOPMENT_TEAM = N9Z25H5L44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetroLogo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Retro Logo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardomunarolo.RetroLogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A931AA42F1304E000686573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RetroLogo/RetroLogo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetroLogo/Preview Content\"";
+				DEVELOPMENT_TEAM = N9Z25H5L44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetroLogo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Retro Logo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardomunarolo.RetroLogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A931A8E2F1304DF00686573 /* Build configuration list for PBXProject "Retro Logo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A931AA02F1304E000686573 /* Debug */,
+				6A931AA12F1304E000686573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A931AA22F1304E000686573 /* Build configuration list for PBXNativeTarget "Retro Logo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A931AA32F1304E000686573 /* Debug */,
+				6A931AA42F1304E000686573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A931A8B2F1304DF00686573 /* Project object */;
+}
